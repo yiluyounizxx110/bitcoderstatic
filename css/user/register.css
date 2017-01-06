@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background: url(../../img/user/login_bg.jpg) no-repeat;
+}
+.loginInfo{
+	width:700px;
+	height:350px;
+	/*border:6px solid #9ab5b5;*/
+	background-color: #ffffff;
+	border-radius: 3px;
+	margin:10% auto;
+	box-shadow: 0 0 3px #ffffff;
+}
+.loginInfoUl{
+	width:320px;
+	margin:10px auto;
+	/*border:1px solid red;*/
+	list-style: none;
+}
+.loginInfoUl li{
+	display: block;
+	height:40px;
+	width:320px;
+	/*border:1px solid green;*/
+	margin: 25px auto;
+	position:relative;
+}
+.logo{
+	width:180px;
+	height:64px;
+	margin: 0 auto;
+	text-indent:80px;
+	background: url(../../img/user/logo.png) 0px 0px no-repeat;
+	font-family: 'Helvetica Neue', STHeiti, 微软雅黑, 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	color: #666666;
+	line-height: 64px;
+}
+.loginInfo input{
+	border:1px solid #E6E6E6;
+	border-radius: 4px;
+	color:#555555;
+    box-shadow: none;
+}
+.loginInfo input:focus{
+	border-color:#499EF3;
+    box-shadow: none;
+    outline: none;
+}
+.inden_7{
+	text-indent: 7px;
+}
+.commonLength{
+	width:320px;
+	height:40px;
+	line-height: 40px;
+	font-size: 15px;
+	font-family: 'Helvetica Neue', STHeiti, 微软雅黑, 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+}
+.prompts{
+	height:40px;
+	width:140px;
+	position:absolute;
+	border:1px solid blue;
+	top:0;
+	right:-160px;
+}
+.prompts_error{
+	color:red;
+}
+.prompts_accept{
+	color:green;
+}
+.z_btn_blue{
+	cursor:pointer;
+	border-radius: 4px;
+	text-align: center;
+	letter-spacing:10px;
+	background-color: #66b7ff;
+	color:#fff;
+}
+.z_btn_blue:hover{
+	background-color: #4daaff;
+}
+
+.z_btn_blue:active{
+	background-color: #168bf7;
+}
