@@ -29,6 +29,12 @@ body{
 	margin: 25px auto;
 	position:relative;
 }
+.loginInfoUl li.aggreement{
+	height:20px;
+	font-size: 13px;
+	line-height: 20px;
+	font-family: 'Helvetica Neue', STHeiti, 微软雅黑, 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+}
 .logo{
 	width:180px;
 	height:64px;
@@ -63,17 +69,38 @@ body{
 }
 .prompts{
 	height:40px;
-	width:140px;
+	width:160px;
+	line-height: 40px;
 	position:absolute;
-	border:1px solid blue;
 	top:0;
-	right:-160px;
+	right:-175px;
+	font-size: 12px;
+	font-family: 'Helvetica Neue', STHeiti, 微软雅黑, 'Microsoft YaHei', Helvetica, Arial, sans-serif;
 }
 .prompts_error{
 	color:red;
 }
 .prompts_accept{
 	color:green;
+}
+input.agree{
+	width:14px;
+	height:14px;
+	position:absolute;
+	top:3px;
+	left:0;
+}
+.register_agreement{
+	position:absolute;
+	top:0;
+	left:20px;
+}
+.aggreement_detail{
+	color:blue;
+	cursor: pointer;
+}
+.aggreement_detail:hover{
+	color: darkblue;
 }
 .z_btn_blue{
 	cursor:pointer;
@@ -89,4 +116,7 @@ body{
 
 .z_btn_blue:active{
 	background-color: #168bf7;
+}
+.z_btn_blue.disable{
+	background-color: #797979;
 }
