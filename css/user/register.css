@@ -6,6 +6,9 @@
 body{
 	background: url(../../img/user/login_bg.jpg) no-repeat;
 }
+.cursor{
+	cursor: pointer;
+}
 .loginInfo{
 	width:700px;
 	height:350px;
@@ -38,13 +41,22 @@ body{
 .logo{
 	width:180px;
 	height:64px;
-	margin: 0 auto;
-	text-indent:80px;
-	background: url(../../img/user/logo.png) 0px 0px no-repeat;
+	margin: 0px auto;
+	/*text-indent:80px;*/
 	font-family: 'Helvetica Neue', STHeiti, 微软雅黑, 'Microsoft YaHei', Helvetica, Arial, sans-serif;
 	font-size: 22px;
 	color: #666666;
+	text-align: center;
 	line-height: 64px;
+	/*background-image: url(../../img/user/bt_logo85_64.jpg);
+	background-repeat: no-repeat;*/
+}
+#logo_text{
+	color:#159C77;
+	font-family: 'Menlo, Monaco, Consolas, 微软雅黑';
+	border:1px solid #159C77;
+	border-radius: 3px;
+	padding: 5px;
 }
 .loginInfo input{
 	border:1px solid #E6E6E6;
@@ -81,7 +93,7 @@ body{
 	color:red;
 }
 .prompts_accept{
-	color:green;
+	color:#159C77;
 }
 input.agree{
 	width:14px;
