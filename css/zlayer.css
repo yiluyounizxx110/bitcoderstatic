@@ -1,0 +1,11 @@
+body{
+	margin: 0;
+	border: 0;
+}
+.zlayer_body{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: #000000;
+	opacity: 0.5;
+}
