@@ -18,6 +18,9 @@ body{
 	margin:10% auto;
 	box-shadow: 0 0 3px #ffffff;
 }
+.loginInfo.login{
+	height:300px;
+}
 .loginInfoUl{
 	width:320px;
 	margin:10px auto;
@@ -113,6 +116,17 @@ input.agree{
 }
 .aggreement_detail:hover{
 	color: darkblue;
+}
+.z_btn_green{
+	cursor:pointer;
+	border-radius: 4px;
+	text-align: center;
+	letter-spacing:10px;
+	background-color: #02AD7E;
+	color:#fff;
+}
+.z_btn_green:hover{
+	background-color: #1B795F;
 }
 .z_btn_blue{
 	cursor:pointer;

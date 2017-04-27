@@ -1,0 +1,27 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.title{
+	margin-top:50px;
+	font-size: 45px;
+	color: #02AD7E;
+	font-weight: bolder;
+	text-align: center;
+	font-family: 微软雅黑, Helvetica, Arial, sans-serif;
+}
+.content{
+	font-size: 120px;
+	height: 120px;
+	line-height: 120px;
+	color: #02AD7E;
+	font-weight: bolder;
+	text-align: center;
+	font-family: 微软雅黑, Helvetica, Arial, sans-serif;
+}
+.imgs{
+	width:594px;
+	height: 310px;
+	margin:10px auto;
+}
